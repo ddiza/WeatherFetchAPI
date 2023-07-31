@@ -1,7 +1,8 @@
 # JS211_NewfetchAPI
 
 Choose an app you want to build
-Optional: Pair up with someone based on your interests
+(Optional: Pair up with someone based on your interests)
+
 Create a repo using your template
 Clone it to one of your machines
 npm init
