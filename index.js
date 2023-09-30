@@ -18,7 +18,7 @@
 const apiKey  = ""
 
 const getPosts = () => {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?units=imperial&q=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?units=imperial&q=${'7f173df152a78e503d99104a7417cc2f'}`)
     .then(res => {
       if(!res.ok) {
         throw Error(res.statusText)
@@ -36,7 +36,7 @@ const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
 async function checkWeather(city){
-    const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
+    const response = await fetch(apiUrl + city + `&appid=${'7f173df152a78e503d99104a7417cc2f'}`);
 
     if(response.status == 404){
         document.querySelector(".error").style.display = "block";
